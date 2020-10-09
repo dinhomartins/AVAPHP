@@ -1,0 +1,157 @@
+.box-infor {
+    width: 100%;
+    height: 380px;
+    background-color: #f2f2f2;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.top-box-infor {
+    width: 100%;
+    height: 60px;
+    background-color: #e0e0e0;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    ;
+}
+
+.top-box-infor {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+}
+
+.infor {
+    display: flex;
+    flex: 2;
+    height: 150px;
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.infor2 {
+    display: flex;
+    flex: 2;
+    height: 250px;
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-side-menu li {
+    list-style: none;
+    margin: 0;
+    padding: 10;
+}
+
+.box-side-menu ul {
+    list-style-type: none;
+}
+
+.content {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.icon-box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.side-menu {
+    width: 250px;
+    height: 100vh;
+    background-color: #3285a8;
+    display: flex;
+    flex-direction: column;
+}
+
+.link-style {
+    height: 40px;
+}
+
+.box {
+    width: 100%;
+    height: 100vh;
+}
+
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: #fff;
+}
+
+a:hover {
+    color: #e8eaed;
+}
+
+li:hover {
+    color: #e8eaed;
+}
+
+a:active {
+    color: #e8eaed;
+    width: 100%;
+    height: 40px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+/* Box count */
+
+.box-count {
+    width: 230px;
+    height: 120px;
+    text-align: center;
+    background-color: #f5f7ff;
+    font-family: roboto;
+    margin: 5px;
+    border-radius: 2px;
+}
+
+.box-count p {
+    color: #000;
+    margin-top: 8px;
+    font-family: roboto;
+}
+
+.content2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.box-count-pesquisa {
+    width: 230px;
+    height: 120px;
+    text-align: center;
+    background-color: #f5f7ff;
+    font-family: roboto;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-count h4 {
+    font-size: 16px;
+    padding-top: 10px;
+}
+
+.shadown {
+    -webkit-box-shadow: -1px -1px 4px 3px rgba(0, 0, 0, 0.13);
+    -moz-box-shadow: -1px -1px 4px 3px rgba(0, 0, 0, 0.13);
+    box-shadow: -1px -1px 4px 3px rgba(0, 0, 0, 0.13);
+}

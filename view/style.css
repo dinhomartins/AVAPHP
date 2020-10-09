@@ -1,0 +1,368 @@
+.box-aulas {
+    width: 956px;
+    height: 538px;
+    border-radius: 10px;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.content-box {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: darkgreen;
+}
+
+.btn-aula {
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 18px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: #fff;
+    background-color: #63bde0
+}
+
+.btn-aula-inativo {
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 18px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: #000;
+    border: 1px solid #63bde0
+}
+
+.side-menu {
+    height: 100vh;
+    width: 300px;
+    background-color: #fafafa;
+    display: flex;
+    flex-direction: column;
+}
+
+.top-menu {
+    width: 100%;
+    height: 100px;
+    border-bottom: 1px solid #fff;
+    display: flex;
+    align-items: center;
+}
+
+.top-menu2 {
+    width: 100%;
+    height: 60px;
+    border-bottom: 1px solid #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.perfil {
+    display: flex;
+    align-items: center;
+}
+
+.icone-perfil {
+    padding-left: 20px;
+}
+
+.icone {
+    padding-left: 30px;
+}
+
+.top-menu p {
+    color: #263238;
+    font-size: 16px;
+    padding-left: 30px;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 14px;
+}
+
+.top-menu2 p {
+    color: #263238;
+    font-size: 15px;
+    padding-left: 15px;
+    display: flex;
+    padding-top: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sub-menu {
+    widows: 100%;
+    height: 60px;
+    border-bottom: 1px solid rgba(247, 247, 247, 0.438);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.sub-menu p {
+    color: #ababab;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 15px;
+    display: flex;
+    padding-top: 14px;
+}
+
+
+/* Stilização do corpo da sala de aula */
+
+.body-room {
+    width: 100%;
+    height: 100vh;
+}
+
+.body-master {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex: 1;
+}
+
+.corpo {
+    display: flex;
+    flex: 1;
+    background-color: #f7f7f7;
+}
+
+.content-corpo {
+    width: 100%;
+}
+
+.titulo {
+    padding-top: 20px;
+}
+
+.content-corpo p {
+    font-size: 25px;
+    font-weight: lighter;
+    padding-left: 60px;
+    color: #2b9564;
+    font-family: 'Roboto', sans-serif;
+}
+
+.box-infor {
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-left: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    -webkit-box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.29);
+    -moz-box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.29);
+    box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.29);
+}
+
+.box-infor-room {
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-left: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    -webkit-box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.29);
+    -moz-box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.29);
+    box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.29);
+}
+
+.box-infor-eletricista {
+    width: 200px;
+    height: 120px;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-left: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.iconeStyle {
+    margin-right: 10px;
+}
+
+.box-infor p {
+    font-size: 14px;
+    text-align: center;
+}
+
+.divisorPadding {
+    margin-left: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.subdivision {
+    margin-top: 30px;
+    margin-left: 60px;
+    color: #2b9564;
+    font-size: 20px;
+    text-align: center;
+}
+
+.box-course-sala-aula {
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-left: 10px;
+    -webkit-box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.29);
+    -moz-box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.29);
+    box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.29);
+}
+
+.formatediv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#botao-visivel {
+    margin-top: 24px
+}
+
+.box-course {
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-left: 10px;
+    -webkit-box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.29);
+    -moz-box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.29);
+    box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.29);
+}
+
+.sub-box-aulas {
+    margin-left: 60px;
+}
+
+.box-course-eletrica {
+    width: 220px;
+    height: 150px;
+    border-radius: 5px;
+    margin-top: 50px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    -webkit-box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.29);
+    -moz-box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.29);
+    box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.29);
+}
+
+.box-course-eletrica-aula {
+    width: 220px;
+    height: 150px;
+    border-radius: 5px;
+    margin-top: 50px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    -webkit-box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.29);
+    -moz-box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.29);
+    box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.29);
+}
+
+.subdivisor {
+    margin-left: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.box-infor-eletricista-aula {
+    display: flex;
+    flex-direction: row;
+    width: 120px;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.divisor-aulas {
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+    width: 90%;
+    margin-left: 60px;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-course-room {
+    border-radius: 5px;
+}
+
+.box-course-eletrica h4 {
+    font-size: 18px;
+    color: #2b9564;
+    font-weight: 200;
+    margin-top: 5px;
+}
+
+.img-icone-eletrica {
+    background-image: url('../img/eletricista.jpg');
+    background-size: cover;
+    width: 300PX;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.img-icone-comando {
+    background-image: url('../img/comando.jpg');
+    background-size: cover;
+    width: 300PX;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.img-icone-arcond {
+    background-image: url('../img/arcond.png');
+    background-size: cover;
+    width: 300PX;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.img-icone-sala {
+    background-image: url('../img/sala.jpg');
+    background-size: cover;
+    width: 300PX;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 5px;
+}
